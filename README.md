@@ -1,20 +1,58 @@
-# Aplicación Móvil
+# Menú de Kebab - Aplicación Móvil
 
-Esta es una aplicación móvil desarrollada en **Kotlin** utilizando **Android Studio**. El proyecto está diseñado para brindar una experiencia de usuario moderna e interactiva, implementando los principios de diseño de Material Design.
+¡Bienvenido a la aplicación móvil del Menú de Kebab! Este proyecto te permite personalizar tus pedidos de kebab de una forma interactiva, implementando los principios de Material Design con una interfaz moderna y amigable.
 
-## Características principales
+## 🍖 Características principales
 
-- **Interfaz intuitiva**: Diseñada con componentes nativos de Android para garantizar una experiencia de usuario consistente.
-- **Funcionalidad principal**: [Describir la funcionalidad clave, como registrar datos, gestionar información o cualquier propósito específico de la app].
-- **Rendimiento optimizado**: Utiliza prácticas recomendadas para minimizar el uso de recursos del dispositivo.
+- **Selección de alimentos**:
+  - Escoge el tipo de carne, bebida y patatas para tu pedido.
+  - Opciones para agregar o quitar ingredientes como verduras.
+- **Carrito de compras**:
+  - Visualiza y edita los elementos seleccionados antes de confirmar tu pedido.
+- **Resumen del pedido**:
+  - Muestra un desglose detallado de los elementos seleccionados, incluyendo la hora estimada de entrega.
+- **Interactividad dinámica**:
+  - Cambios en la interfaz basados en las selecciones del usuario.
+- **Diseño adaptable**:
+  - Optimizado para dispositivos móviles, siguiendo los estándares de Material Design.
 
-## Tecnologías utilizadas
+## 🎮 Modos de uso
 
-- **Lenguaje de programación**: Kotlin
-- **Entorno de desarrollo**: Android Studio
-- **Diseño de interfaz**: Material Design
+### Personalización del pedido
+- Selecciona la carne, bebida y tipo de patatas desde la pantalla principal.
+- Usa checkboxes para incluir o excluir ingredientes adicionales.
 
-## Instalación y ejecución
+### Visualización del carrito
+- Consulta el contenido del carrito antes de confirmar.
+- Modifica o elimina elementos fácilmente.
+
+### Confirmación del pedido
+- Una vez finalizado, muestra un mensaje de "Pedido confirmado" con los detalles principales.
+
+## 📂 Estructura del proyecto
+
+### Código principal
+- **MainScreen.kt**: Pantalla principal donde se seleccionan los elementos del pedido.
+- **CartScreen.kt**: Visualización y gestión del carrito.
+- **ConfirmationScreen.kt**: Muestra el resumen final del pedido.
+
+### Estilos
+- **styleMain.css**: Estilos para la pantalla principal.
+- **styleCart.css**: Estilos para la visualización del carrito.
+- **styleConfirmation.css**: Estilos para la pantalla de confirmación.
+
+### Recursos visuales
+- Iconos y gráficos en la carpeta `images/`:
+  - Iconos para ingredientes y tipos de kebab.
+  - Imágenes de fondo personalizadas para cada pantalla.
+
+## 💻 Requisitos
+
+- **Java 11+**: Asegúrate de tener una versión compatible del JDK.
+- **Android Studio**: Configurado con soporte para Kotlin y Material Design.
+- **Archivos de recursos**: Verifica que la carpeta `images/` esté correctamente ubicada en el proyecto.
+
+## ⚙️ Instrucciones de uso
 
 1. **Clonar el repositorio**:
    ```bash
@@ -23,43 +61,25 @@ Esta es una aplicación móvil desarrollada en **Kotlin** utilizando **Android S
 
 2. **Abrir en Android Studio**:
    - Asegúrate de tener Android Studio instalado.
-   - Importa el proyecto seleccionando la carpeta `AplicacionOne`.
+   - Importa el proyecto seleccionando la carpeta raíz del repositorio.
 
-3. **Configurar el entorno**:
-   - Instala las dependencias requeridas automáticamente desde Gradle.
+3. **Configurar dependencias**:
+   - Gradle instalará automáticamente las dependencias necesarias.
 
 4. **Ejecutar la aplicación**:
    - Conecta un dispositivo físico o inicia un emulador.
    - Haz clic en el botón "Run" o utiliza el atajo `Shift + F10`.
 
-## Funcionalidades principales
+## 📈 Futuras mejoras
 
-- **Pantalla principal**: [Descripción de la pantalla principal y lo que permite hacer].
-- **Flujo de navegación**: [Explicación sobre cómo los usuarios navegan entre diferentes pantallas o actividades].
-- **Interacción del usuario**: Uso de botones, listas, formularios u otros elementos interactivos.
+- Introducir nuevos ingredientes y opciones personalizables.
+- Incorporar un sistema de ranking para los pedidos más frecuentes.
+- Añadir animaciones y sonidos para una experiencia más inmersiva.
 
-## Diseño
+---
 
-El diseño de la aplicación sigue los principios de **Material Design**, asegurando una apariencia moderna y consistente en todos los dispositivos Android.
+¡Descubre tu kebab perfecto con esta aplicación interactiva y fácil de usar! Si tienes sugerencias o quieres contribuir, no dudes en enviar tus ideas.
 
-### Estilos destacados
-
-```kotlin
-/* Ejemplo de estilo en XML o Kotlin */
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Ejemplo de diseño"
-    android:textColor="@color/primary"
-    android:textSize="16sp"/>
-```
-
-## Contribución
-
-1. Realiza un fork del repositorio.
-2. Crea una nueva rama para tu funcionalidad o corrección de errores.
-3. Envía un Pull Request detallado explicando los cambios realizados.
-
-## Licencia
+## 📝 Licencia
 
 Este proyecto está licenciado bajo la [MIT License](LICENSE).
